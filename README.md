@@ -10,7 +10,6 @@
 [![STT](https://img.shields.io/badge/STT-Whisper%20Large%20v3%20Turbo-orange.svg)]()
 [![Privacy](https://img.shields.io/badge/Compliance-DPDP%20Act%202023-purple.svg)]()
 [![Tamper-Proof Audit](https://img.shields.io/badge/Audit-HMAC--SHA256%20Chained-teal.svg)]()
-[![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)]()
 
 ---
 
