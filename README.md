@@ -68,7 +68,7 @@ CareFlow AI is an **assistive clinical intake copilot**, strictly designed as a 
 ## ⚡ Key Innovations
 
 ### 1. Sub-20B Parameter SLM Optimization
-Operates on high-efficiency open models (`openai/gpt-oss-20b` or `llama-3.1-8b-instant`) through Groq Cloud LPU acceleration:
+Operates on high-efficiency open models (`openai/gpt-oss-20b`) through Groq Cloud LPU acceleration:
 - Constrained JSON schemas with Pydantic validation and temperature `0.1` deliver deterministic extraction without hallucination.
 - Delivers 70B+ class synthesis accuracy with sub-1.5 second end-to-end inference latency.
 
