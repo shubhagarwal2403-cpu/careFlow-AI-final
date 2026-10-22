@@ -1,0 +1,53 @@
+{
+  "image_path": "C:\\confluentia hackathon\\careflow\\scripts\\..\\data\\demo_cases\\blurry_report\\report.png",
+  "lines": [
+    {
+      "line_id": "OCR_LINE_1",
+      "text": "CENTRAL HOSPITAL LAB REPORT",
+      "bbox": [
+        40,
+        30,
+        350,
+        25
+      ],
+      "confidence": 0.97,
+      "unreadable": false
+    },
+    {
+      "line_id": "OCR_LINE_2",
+      "text": "Hemoglobin 13.2 g/dL 12.0 - 15.0 NORMAL",
+      "bbox": [
+        40,
+        120,
+        420,
+        25
+      ],
+      "confidence": 0.95,
+      "unreadable": false
+    },
+    {
+      "line_id": "OCR_LINE_3",
+      "text": "S@@um Cr###nine #.# mg/dL #.#",
+      "bbox": [
+        35,
+        150,
+        630,
+        50
+      ],
+      "confidence": 0.41,
+      "unreadable": true
+    },
+    {
+      "line_id": "OCR_LINE_4",
+      "text": "Blood Urea 42 mg/dL 15 - 45 NORMAL",
+      "bbox": [
+        40,
+        210,
+        380,
+        25
+      ],
+      "confidence": 0.93,
+      "unreadable": false
+    }
+  ]
+}

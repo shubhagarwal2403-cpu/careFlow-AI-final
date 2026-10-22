@@ -1,0 +1,71 @@
+{
+  "chief_complaint": {
+    "text": "Severe left-sided chest pain accompanied by profuse sweating and shortness of breath",
+    "source_ref": "voice:00:00-00:03"
+  },
+  "symptom_timeline": [
+    {
+      "symptom": "Left chest pain",
+      "onset": "Last night",
+      "duration": "Since last night",
+      "progression": "persistent",
+      "severity": "heavy",
+      "source_ref": "voice:00:00-00:03",
+      "evidence_quote": "kal raat se left chest mein heavy pain ho raha hai"
+    },
+    {
+      "symptom": "Diaphoresis (sweating)",
+      "onset": "UNKNOWN",
+      "duration": "UNKNOWN",
+      "progression": "UNKNOWN",
+      "severity": "moderate",
+      "source_ref": "voice:00:03-00:06",
+      "evidence_quote": "pasina aa raha hai"
+    },
+    {
+      "symptom": "Breathlessness",
+      "onset": "UNKNOWN",
+      "duration": "UNKNOWN",
+      "progression": "UNKNOWN",
+      "severity": "severe",
+      "source_ref": "voice:00:03-00:06",
+      "evidence_quote": "saans phool rahi hai"
+    }
+  ],
+  "extracted_report_metrics": [],
+  "uncertainty_flags": [
+    {
+      "issue_type": "LOW_AUDIO_CONFIDENCE",
+      "reason": "Low confidence transcription detected in segment voice:00:03-00:06",
+      "source_ref": "voice:00:03-00:06"
+    }
+  ],
+  "warning_signals": [
+    {
+      "signal": "Rule fired [R08]: Chest pain with associated high-risk symptom reported",
+      "source_ref": "voice:00:00-00:03"
+    }
+  ],
+  "conflicts": [],
+  "missing_information": [
+    "Pre-existing cardiac history",
+    "Exact pain radiation"
+  ],
+  "follow_up_questions": [
+    {
+      "question": "Kya dard left haath ya jabde (jaw) ki taraf jaa raha hai?"
+    },
+    {
+      "question": "Kya aapko pehle koi heart ki bimari ya BP raha hai?"
+    }
+  ],
+  "reply_language": "hinglish",
+  "suggested_urgency": "CRITICAL",
+  "urgency_reasons": [
+    {
+      "reason": "Chest discomfort occurring with sweating and breathlessness constitutes high emergency floor",
+      "source_ref": "voice:00:00-00:03"
+    }
+  ],
+  "draft_triage_note": "S: Patient reports left chest pain starting last night, associated with sweating and dyspnea. O: High distress noted in voice tone. A: Acute high-risk cardiopulmonary presentation. P: Immediate senior emergency clinician triage and 12-lead ECG."
+}

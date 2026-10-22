@@ -1,0 +1,6 @@
+{
+  "status": "not yet measured",
+  "reason": "GROQ_API_KEY not configured for live bench testing.",
+  "model": "llama-3.1-8b-instant",
+  "n_samples": 0
+}

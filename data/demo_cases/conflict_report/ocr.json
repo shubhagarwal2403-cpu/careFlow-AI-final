@@ -1,0 +1,77 @@
+{
+  "image_path": "C:\\confluentia hackathon\\careflow\\scripts\\..\\data\\demo_cases\\conflict_report\\report.png",
+  "lines": [
+    {
+      "line_id": "OCR_LINE_1",
+      "text": "CITY CLINICAL LABORATORY REPORT",
+      "bbox": [
+        40,
+        30,
+        400,
+        25
+      ],
+      "confidence": 0.98,
+      "unreadable": false
+    },
+    {
+      "line_id": "OCR_LINE_2",
+      "text": "HbA1c Glycated Hb 8.4 % 4.0 - 5.6 % HIGH",
+      "bbox": [
+        40,
+        120,
+        480,
+        25
+      ],
+      "confidence": 0.95,
+      "unreadable": false
+    },
+    {
+      "line_id": "OCR_LINE_3",
+      "text": "Fasting Blood Sugar 164 mg/dL 70 - 100 HIGH",
+      "bbox": [
+        40,
+        160,
+        470,
+        25
+      ],
+      "confidence": 0.94,
+      "unreadable": false
+    },
+    {
+      "line_id": "OCR_LINE_4",
+      "text": "Serum Creatinine 0.9 mg/dL 0.6 - 1.2 NORMAL",
+      "bbox": [
+        40,
+        200,
+        450,
+        25
+      ],
+      "confidence": 0.96,
+      "unreadable": false
+    },
+    {
+      "line_id": "OCR_LINE_5",
+      "text": "Tab. Metformin 500 mg BD",
+      "bbox": [
+        40,
+        290,
+        300,
+        25
+      ],
+      "confidence": 0.97,
+      "unreadable": false
+    },
+    {
+      "line_id": "OCR_LINE_6",
+      "text": "Tab. Pantoprazole 40 mg OD",
+      "bbox": [
+        40,
+        320,
+        310,
+        25
+      ],
+      "confidence": 0.96,
+      "unreadable": false
+    }
+  ]
+}

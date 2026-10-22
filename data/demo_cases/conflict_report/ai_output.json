@@ -1,0 +1,76 @@
+{
+  "chief_complaint": {
+    "text": "Generalized weakness with contradiction between patient denial of medical history and lab report",
+    "source_ref": "text:MSG_1"
+  },
+  "symptom_timeline": [
+    {
+      "symptom": "Weakness (kamzori)",
+      "onset": "UNKNOWN",
+      "duration": "UNKNOWN",
+      "progression": "UNKNOWN",
+      "severity": "mild",
+      "source_ref": "text:MSG_1",
+      "evidence_quote": "Bas thodi kamzori hai"
+    }
+  ],
+  "extracted_report_metrics": [
+    {
+      "test_name": "HbA1c",
+      "value": "8.4",
+      "unit": "%",
+      "reference_range": "4.0 - 5.6 %",
+      "status": "high",
+      "source_ref": "ocr:OCR_LINE_2"
+    },
+    {
+      "test_name": "Fasting Blood Sugar",
+      "value": "164",
+      "unit": "mg/dL",
+      "reference_range": "70 - 100",
+      "status": "high",
+      "source_ref": "ocr:OCR_LINE_3"
+    }
+  ],
+  "uncertainty_flags": [
+    {
+      "issue_type": "AMBIGUOUS",
+      "reason": "Direct discrepancy between patient denial of medicines and active prescription on lab document",
+      "source_ref": "text:MSG_1"
+    }
+  ],
+  "warning_signals": [],
+  "conflicts": [
+    {
+      "summary": "Patient stated 'no diabetes' (text:MSG_1) but report records elevated HbA1c 8.4% (ocr:OCR_LINE_2)",
+      "source_a": "text:MSG_1",
+      "source_b": "ocr:OCR_LINE_2"
+    },
+    {
+      "summary": "Patient stated 'no medicines' (text:MSG_1) but report lists Tab. Metformin 500 mg BD (ocr:OCR_LINE_5)",
+      "source_a": "text:MSG_1",
+      "source_b": "ocr:OCR_LINE_5"
+    }
+  ],
+  "missing_information": [
+    "Medication adherence",
+    "Last meal time for blood glucose reading"
+  ],
+  "follow_up_questions": [
+    {
+      "question": "Kya aap Metformin ya koi anya niyamit goli lete hain?"
+    },
+    {
+      "question": "Yeh lab report kis taareekh ki hai?"
+    }
+  ],
+  "reply_language": "hinglish",
+  "suggested_urgency": "MEDIUM",
+  "urgency_reasons": [
+    {
+      "reason": "Elevated metabolic markers and clear medication discrepancies require clinical clarification",
+      "source_ref": "ocr:OCR_LINE_2"
+    }
+  ],
+  "draft_triage_note": "S: Patient presents stating no history of chronic illness or medication, noting mild weakness. O: Laboratory report shows HbA1c 8.4% and FBS 164 mg/dL with Metformin listed. A: Informational conflict between patient statement and medical document. P: Clinical reconciliation of history and glycemic monitoring."
+}

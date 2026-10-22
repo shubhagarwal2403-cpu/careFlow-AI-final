@@ -1,0 +1,62 @@
+{
+  "text": "Sir, kal raat se left chest mein heavy pain ho raha hai, pasina aa raha hai aur saans phool rahi hai.",
+  "language": "hi",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.8,
+      "text": "Sir, kal raat se left chest mein heavy pain ho raha hai,",
+      "confidence": 0.92,
+      "no_speech_prob": 0.01,
+      "low_confidence": false
+    },
+    {
+      "start": 3.8,
+      "end": 6.5,
+      "text": "pasina aa raha hai aur saans phool rahi hai.",
+      "confidence": 0.48,
+      "no_speech_prob": 0.08,
+      "low_confidence": true
+    }
+  ],
+  "words": [
+    {
+      "word": "Sir",
+      "start": 0.0,
+      "end": 0.4
+    },
+    {
+      "word": "kal",
+      "start": 0.5,
+      "end": 0.8
+    },
+    {
+      "word": "raat",
+      "start": 0.9,
+      "end": 1.2
+    },
+    {
+      "word": "chest",
+      "start": 1.8,
+      "end": 2.2
+    },
+    {
+      "word": "pain",
+      "start": 2.6,
+      "end": 3.0
+    },
+    {
+      "word": "pasina",
+      "start": 3.9,
+      "end": 4.5
+    },
+    {
+      "word": "saans",
+      "start": 5.0,
+      "end": 5.6
+    }
+  ],
+  "low_confidence_segments": [
+    1
+  ]
+}

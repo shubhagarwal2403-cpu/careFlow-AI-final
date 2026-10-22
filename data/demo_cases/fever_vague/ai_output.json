@@ -1,0 +1,49 @@
+{
+  "chief_complaint": {
+    "text": "Fever with unspecified duration and temperature",
+    "source_ref": "text:MSG_1"
+  },
+  "symptom_timeline": [
+    {
+      "symptom": "Fever",
+      "onset": "UNKNOWN",
+      "duration": "UNKNOWN",
+      "progression": "UNKNOWN",
+      "severity": "UNKNOWN",
+      "source_ref": "text:MSG_1",
+      "evidence_quote": "fever"
+    }
+  ],
+  "extracted_report_metrics": [],
+  "uncertainty_flags": [
+    {
+      "issue_type": "INCOMPLETE_INPUT",
+      "reason": "Minimal symptom reported with no timeline, temperature value, or severity (D4 compliance)",
+      "source_ref": "text:MSG_1"
+    }
+  ],
+  "warning_signals": [],
+  "conflicts": [],
+  "missing_information": [
+    "Onset time and duration of fever",
+    "Highest measured temperature",
+    "Associated chills, rash, or body pain"
+  ],
+  "follow_up_questions": [
+    {
+      "question": "How many days have you had this fever, and did you measure your temperature?"
+    },
+    {
+      "question": "Do you also have shivering, chills, headache, or vomiting?"
+    }
+  ],
+  "reply_language": "en",
+  "suggested_urgency": "UNCERTAIN_NEEDS_FOLLOWUP",
+  "urgency_reasons": [
+    {
+      "reason": "Vague symptom without onset or severity cannot be safely classified as LOW; requires followup",
+      "source_ref": "text:MSG_1"
+    }
+  ],
+  "draft_triage_note": "S: Patient states 'I have fever' with no additional history. O: No vitals recorded. A: Incomplete intake; unstratified febrile complaint. P: Follow-up questions prompted to clarify duration, severity, and associated red flags."
+}
